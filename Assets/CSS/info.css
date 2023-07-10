@@ -1,0 +1,11 @@
+.column {
+    float: left;
+    width: 33.33%;
+    color: whitesmoke;
+}
+.info {
+    border-style: solid;
+}
+.dropdownInfo {
+    display: none;
+}
