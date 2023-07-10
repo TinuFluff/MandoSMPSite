@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    background-color: crimson;
+}
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2 {
+    border-style: solid;
+}
+a {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 1px;
+}
+#top {
+    background-color: black;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+}
+#navBar {
+    float: right;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+#title {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: serif;
+}
+#main {
+    color: white;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+}
+#mainTitle {
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+#mainInfo {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.navBarLinks {
+    color: white;
+    font-family: serif;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    color: whitesmoke;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.info {
+    border-style: solid;
+}
