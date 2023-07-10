@@ -80,7 +80,9 @@ a:visited {
     display: table;
     clear: both;
 }
-
 .info {
     border-style: solid;
+}
+.dropdownInfo {
+    display: none;
 }
